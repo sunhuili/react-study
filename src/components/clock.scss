@@ -1,0 +1,14 @@
+/*局部样式*/
+:local{
+  .p-module{
+    background: red;
+    color: white;
+  }
+}
+/*全局样式*/
+:global{
+  .p-module{
+    background: blue;
+    color: yellow;
+  }
+}
