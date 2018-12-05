@@ -9,7 +9,7 @@ export default class NumberList extends React.Component{
       <ListItem key={index} value={number}></ListItem>
     );
     return (
-      <ul>
+      <ul className="p-module">
         {this.props.numbers.map((number,index) =>
           <ListItem key={index} value={number} />
         )}

@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './clock.scss';
 
 export default class Clock extends React.Component {
   constructor(props){
@@ -18,7 +19,7 @@ export default class Clock extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className={style['p-module']}>
         <h1>Hello, world!</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>

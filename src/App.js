@@ -1,14 +1,14 @@
 import React from 'react';
-import Comment from '@/components/Comment.js';
-import Clock from '@/components/Clock.js';
-import Toggle from '@/components/Toggle.js';
-import NumberList from '@/components/NumberList.js';
+import Comment from '@/components/comment.js';
+import Clock from '@/components/clock.js';
+import Toggle from '@/components/toggle.js';
+import NumberList from '@/components/numberList.js';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      id: 0,
+      id: 1,
       comment: {
         date: new Date(),
         text: 'I hope you enjoy learning React!',
